@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+}
+
+.biography{
+   width: 70%;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.summarry{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.summarry-table{
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+.text-justify{
+    text-align: justify;
+}
+

@@ -1,0 +1,78 @@
+body{
+	font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://fondosmil.com/fondo/17040.jpg);
+}
+nav{
+    /*outline: 1px solid rgb(87, 28, 28);*/
+
+}
+ul{
+    /*outline: 1px solid blue;*/
+    line-height: 40px;
+    padding: 0;
+    margin: 0;
+    background: brown;
+    line-height: 40px;
+}
+li{
+    /*outline: 1px solid violet;*/
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+a{
+    /*outline: 1px solid brown;*/
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+a:hover{
+    background: #f9a91a;
+    color: #000;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 5px;
+    float: left;
+}
+.hear{
+    
+    background-color: red;
+    float: left;
+    height: 40px;
+    width: 100%;
+}
+.caja2{
+    float: left;
+    width: 25%;
+    height: 400px;
+    background: khaki;
+}
+.contenido{
+    float: left;
+    width: 75%;
+    height: 400px;
+    background: lightskyblue;
+    
+}
+.foster{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: lightslategrey;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 5px;
+    float: left;
+}

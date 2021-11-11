@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <little>Almacenimiento de datos js</little>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <form>
+            <div class="campo">
+                <label for="nombres:">Nombres:</label>
+                <input type="text" name="nombres" id="nombres">
+            </div>
+            <div class="campo">
+                <label for="apellidos:">Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos">
+            </div>
+            <div class="campo">
+                <label for="email:">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="campo">
+                <label for="fecha de nacimiento:">Fecha de nacimiento:</label>
+                <input type="date" name="fechanacimiento" id="fechanacimiento">
+            </div>
+            <div class="campo">
+                <p>Género</p>
+                <span class="tab"></span><input type="radio" id="f" name="género" value="f">
+                <label for="f">femenino</label>
+                <input type="radio" id="m" name="género" value="m">
+                <label for="m">masculino</label>
+            </div>
+            <div class="campo">
+                <label for="estaura">Estatura:</label>
+                <input class="w-50" type="number" name="estatura" id="estatura" step="any">metros
+            </div>
+            <div class="campo">
+                <label for="peso">Peso:</label>
+                <input class="w-50" type="number" name="peso" id="peso" step="any">kg
+            </div>
+            <div class="campo">
+                <input type="checkbox" name="deporte" id="deporte">
+                <label for="deporte">Realizo deporte regularmente.</label>
+            </div>
+            <div class="campo">
+                <button type="button" id="enviar" onclick="datos()"> Enviar </button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
